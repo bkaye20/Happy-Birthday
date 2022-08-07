@@ -139,6 +139,13 @@ nav a:hover {
   background-color: black;
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+  width:700px;
+  height:150px ;
+  margin: 35%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .shikha{
   display: flex;
