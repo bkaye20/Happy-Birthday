@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: url(" https://wallpaperaccess.com/full/651718.jpg");
+  color: rgb(255, 255, 255);
+  overflow-x: hidden;
+  margin: 0;
+}
+.container {
+  background-image: url("https://wallpapercave.com/wp/wp2244221.jpg");
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+.container.show-nav {
+  transform: rotate(-20deg);
+}
+.circle {
+  height: 400px;
+  width: 400px;
+  background-image: url("https://wallpapercave.com/wp/wp3255759.jpg");
+  border-radius: 100%;
+  position: relative;
+  transition: transform 0.5s linear;
+  padding-left: -20px;
+}
+
+.container.show-nav .circle {
+  transform: rotate(-70deg);
+}
+
+.circle button {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  height: 100px;
+  background: transparent;
+  border: 0;
+  font-size: 26px;
+  color: rgb(0, 0, 0);
+}
+
+.circle button:focus {
+  outline: none;
+}
+
+.circle button#open {
+  left: 50%;
+}
+
+.circle button#close {
+  top: 50%;
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+.container.show-nav + nav li {
+  transform: translateX(0);
+  transition-delay: 0.3s;
+}
+
+nav {
+  position: fixed;
+  bottom: 40px;
+  left: 0;
+  z-index: 100;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 30px;
+}
+
+nav ul li {
+  text-transform: uppercase;
+  color: #fff;
+  margin: 40px 0;
+  transform: translateX(-100%);
+  transition: transform 0.4s ease-in;
+}
+
+nav ul li i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+nav ul li + li {
+  margin-left: 15px;
+  transform: translateX(-150%);
+}
+
+nav ul li + li + li {
+  margin-left: 30px;
+  transform: translateX(-200%);
+}
+
+nav a{
+  color: #fafafa;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+nav a:hover {
+  color: #FF7979;
+  font-weight: bold;
+}
+
+.content p {
+  color: #333;
+  line-height: 1.5;
+}
+#close{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: #fafafa;
+  padding-right: 40px;
+  margin-right: 20PX;
+  background-color: red;
+
+}
+#open{
+  color: #fafafa;
+  background-color: black;
+  border-radius: 50%;
+  margin-left: -50px;
+  height: 100px;
+  width: 100px;
+  
+}
+.bgc{
+  background-color: black;
+  display: flex;
+justify-content: center;
+}
+.shikha{
+  display: flex;
+  margin-left: 120px;
+  padding-top: 130px;
+  color:rgb(255, 255, 255);
+  font-weight: bolder;
+  font-size:1cm
+}
+.just4{
+display: flex;
+justify-content: center;
+background-color: black;
+font-size: xx-large;
+}
+.gandhi{
+display: flex;
+justify-content: center;
+margin-left: 750px;
+}
