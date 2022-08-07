@@ -50,6 +50,7 @@ body {
 
 .circle button#open {
   left: 50%;
+ 
 }
 
 .circle button#close {
@@ -114,18 +115,20 @@ nav a:hover {
   line-height: 1.5;
 }
 #close{
-  height: 50px;
-  width: 50px;
+  height: 90px;
+  width: 90px;
   border-radius: 50%;
-  color: #fafafa;
-  padding-right: 40px;
-  margin-right: 20PX;
-  background-color: red;
+  font-weight: bolder;
+  color: white;
+  margin-right: 30PX;
+  background-color: green;
+  font-size: larger;;
 
 }
 #open{
-  color: #fafafa;
-  background-color: black;
+  color:black;
+  background-color: red;
+  font-weight: bolder;
   border-radius: 50%;
   margin-left: -50px;
   height: 100px;
@@ -135,15 +138,26 @@ nav a:hover {
 .bgc{
   background-color: black;
   display: flex;
-justify-content: center;
+  justify-content: center;
 }
 .shikha{
   display: flex;
   margin-left: 120px;
   padding-top: 130px;
-  color:rgb(255, 255, 255);
+  color:white;
   font-weight: bolder;
-  font-size:1cm
+  font-size:1cm;
+  
+  
+}
+.just3{
+margin-top: 0;
+padding-top: 0;
+display: flex;
+justify-content: center;
+background-color: black;
+width:300px;
+margin-left: 42%;
 }
 .just4{
 display: flex;
@@ -154,5 +168,18 @@ font-size: xx-large;
 .gandhi{
 display: flex;
 justify-content: center;
-margin-left: 38%
+align-items: center;
+margin: 42%;
+margin-top: 0;
+margin-bottom: 0;
+
+}
+.circle-container{
+  width: 500px;
+}
+.just{
+  display: flex;
+  justify-content:center;
+  margin-left: 100px;
+  padding-left: 100px;
 }
